@@ -17,6 +17,7 @@ public class AdminController {
 	@GetMapping("/approved")
 	public ResponseEntity<Object> approvedStudents()
 	{
+		//Test
 		return adminService.approvedStudents();
 	}
 	
